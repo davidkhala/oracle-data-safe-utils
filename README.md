@@ -26,4 +26,8 @@ Oracle Data Safe utils
 ### Type: Oracle On-Premises Database
 - option `connector-port`: Oracle Connection Manager listener port
 - Setup TLS between On-Prem CMAN and target DB
-   - Run CMANTLSDB.sh in on-prem connector root
+    - Prerequisite: Database wallet copy and ensure Database wallet is in use 
+   - [WIP] Run CMANTLSDB.sh in on-prem connector root
+
+## TODO
+- research DB wallet
